@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Color Game</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Play|Audiowide" rel="stylesheet">
+	</head>
+
+	<body>
+		
+		<div>
+			<h1 class="white">
+				<div>The Great </div>
+				<div><span id="colorDisplay"></div>
+				<div></span> Guessing Game</div>
+			</h1>
+		</div>
+
+		<div id="stripe">
+			<span class="btn-group"><button id="reset" class="button botones">New Colors</button></span>
+			<span id="message"> </span>
+			<span class="btn-group">
+			  <button id="easy" class="button botones">Easy</button>
+			  <button id="hard" class="button botones selected">Hard</button>
+			</span>
+		</div>
+
+		<div class="container">
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+			<div class="square"></div>
+		</div>
+
+		<div class='ad'>
+			<span class='closebtn'>
+				&times;
+			</span>
+			<p>Bienvenido/a a Color Game!</p>
+			<p>Tu misión será adivinar el color RGB expresado en el encabezado.</p>
+ 			<p class="min">Easy mode: 3 opciones.</p>
+ 			<p class="min">Hard mode: 6 opciones.</p>
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+		  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		  crossorigin="anonymous"></script>
+		<script src="script.js"></script>
+	</body>
+</html>

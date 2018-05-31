@@ -1,0 +1,137 @@
+*{
+		box-sizing: border-box;
+
+}
+.square{
+
+	float: left;
+	width: 30%;
+	margin: 1.5%;
+	border-radius: 10%;
+	padding-bottom: 30%;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.container{
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+body{
+	display: block;
+	background-color: #232323;
+	margin: 0px;
+}
+
+.white{
+  	background-color: steelblue;
+	color: white;
+	font-size: 270%;
+	margin: 0px;
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+}
+
+#colorDisplay{
+
+	font-size: 150%;
+}
+
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+#message{
+	display: inline-block;
+	width: 15%;
+	color: black;
+	font-size: 110%;
+	text-align: center;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+
+.hidden{
+	display: none;
+}
+
+.btn-group .button {
+	height: 30px;
+    border: none;
+    padding: 0px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: verdana;
+    transition-duration: 0.5s;
+    max-height: 100%;
+}
+
+.btn-group .button:hover{
+    color: white;
+    background-color: steelblue;
+    transition-duration: 0.5s;
+}
+
+
+.botones{
+	outline: none;
+	color: steelblue;
+	background-color: white;
+	font-family: monospace;
+	text-transform: uppercase; 
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+	font-family: monospace;
+	text-transform: uppercase; 
+}
+
+.ad {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.78);
+    color: white;
+    position: absolute;
+    height: 50%;
+    width: 34%;
+    left: 33%;
+    top:0%;
+    border-radius: 5%;
+
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: red;
+}
+
+.ad p{
+	color: #bd95c0;
+	font-family: monospace;
+	font-size: 3vh;
+	font-size: 1.5vw;
+	position: relative;
+	top: 10%;
+	left: 5%;
+	max-width: 100%;
+}
+
+.ad .min{
+	font-size: 2.5vh;
+	font-size: 1.25vw;
+}
