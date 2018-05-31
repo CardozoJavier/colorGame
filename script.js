@@ -24,8 +24,6 @@ x.on('click',function(){
 	easyBtn.on('click', selectEasy);
 	hardBtn.on('click', selectHard);
 
-		
-
 	// Aca le vuelvo a aplicar la clase 'botones' al dejar de pasar el mouse, clase la cual le elimine al hacer el hover.
 	easyBtn.on('mouseleave', function(){
 		easyBtn.addClass('botones');
