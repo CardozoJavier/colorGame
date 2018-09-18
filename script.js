@@ -3,7 +3,6 @@ var x= $('.closebtn');
 var body= $('body');
 x.on('click',function(){
 	ad.slideUp(1000);
-	setTimeout(function(){
 		var difficult= 6;
 		var colors= generateRandomColors(difficult);
 		var squares= $('.square');
@@ -146,5 +145,4 @@ x.on('click',function(){
 			resetColor();
 		}
 });
-}, 1000);
 
